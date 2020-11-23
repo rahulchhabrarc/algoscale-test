@@ -1,0 +1,124 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+form {border: 3px solid #f1f1f1;}
+
+input[type=text], input[type=password], textarea{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  font-size: 16px;
+  font-family: Arial;
+  border: 1px solid #0087AA;
+  box-sizing: border-box;
+}
+
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: auto;
+}
+
+h1 {
+    font-size: 38px;
+    font-family: Arial;
+    font-weight: bold;
+
+}
+label{
+    font-size: 16px;
+    font-family: Arial;
+}
+.submit-button{
+    font-size: 16px;
+    font-family: Arial;
+    height: 42px;
+    background-color: #0087AA;
+}
+
+.submit-button:hover{
+    background-color: #1997B7;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+
+.container {
+    padding-top: 150px;
+}
+
+.imgcontainer h2 {
+    position: absolute;
+    top: 75px;
+    margin-left: -25px;
+    background: white;
+    padding: 0px 10px;
+}
+.logincontainer {
+  text-align: center;
+  width: 382px;  
+  overflow: hidden;  
+  margin: auto;  
+  padding: 80px;  
+  border: 1px solid #776c6c;
+  background: white;  
+  border-radius: 15px ;
+}
+
+.contactcontainer {
+    width: 500px;  
+    overflow: hidden;  
+    margin: auto;  
+    padding: 40px 80px;  
+    border: 1px solid #776c6c;
+    background: #ededed;  
+    border-radius: 15px ;
+  }
+
+  .analyticscontainer {
+    width: 700px;  
+    overflow: hidden;  
+    margin: auto;  
+    padding: 40px 80px;  
+    border: 1px solid #776c6c;
+    background: #ededed;  
+    border-radius: 15px ;
+  }
+
+  .contactcontainer button{
+    width: -webkit-fill-available !important;
+  }
+
+.container {
+  padding: 16px;
+}
+
+.float-right{
+    float: right;
+    margin: 15px 30px;
+}
+
+
+
+.button4 {
+    border-radius: 20px;
+    padding: 10px 40px;
+    margin: 10px 2px;
+    background-color: #DDDDDD !important;
+    
+}
+
+button.button4.active {
+    background-color: #0087AA !important;
+}
+
+.button4:hover {
+    background-color: #1997B7 !important;
+}
+
